@@ -53,6 +53,6 @@ Parking a finished design is uncomfortable. It looks like indecision in a standu
 
 Very little on the substance. The size ceiling and the audit coupling arguments are both correct and both would apply again.
 
-**I would have written the decision down before the debate rather than after it.** This choice was litigated more than once in different forms over several weeks, because the reasoning lived in people's heads and in scattered pull request comments. The 24KB argument in particular is objective and settles the question in a paragraph. Writing it down the first time it came up would have saved the second and third rounds.
+**I would have written the decision down before the debate rather than after it.** This choice was litigated more than once in different forms over several weeks, because the reasoning lived in people's heads and in scattered pull request comments. Inheritance could push the contract past Ethereum's 24KB limit. Splitting the contract fixes that, but splitting halfway through an audit means reworking code the auditor already reviewed. Composition avoided the risk entirely. Writing it down the first time it came up would have saved the second and third rounds.
 
 That is the general case for this repository existing at all.

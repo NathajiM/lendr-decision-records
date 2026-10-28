@@ -39,7 +39,7 @@ The asset class blocklist in [ADR 0003](0003-tiered-access-model.md) is downstre
 
 ## Consequences
 
-**Compliance competes with features for the same scarce resources.** The same audit budget ([ADR 0006](0006-security-sequencing-under-a-fixed-audit-budget.md)) and the same 24KB contract size ceiling ([ADR 0005](0005-tenant-composition-clone-not-inherit.md)). On chain compliance is not free, and the currency it is paid in is the currency everything else needs.
+**Compliance competes with features for the same scarce resources.** The same audit budget ([ADR 0006](0006-security-sequencing-under-a-fixed-audit-budget.md)) and the same contract size headroom, where extra compliance logic raises the odds of a contract split mid-audit ([ADR 0005](0005-tenant-composition-clone-not-inherit.md)). On chain compliance is not free, and the currency it is paid in is the currency everything else needs.
 
 **Some markets were closed deliberately.** Jurisdiction allowlists and asset class restrictions mean the product refuses business it could have taken. Every one of those refusals is revenue not earned, and they are visible in the funnel long before the risk they prevent would have been.
 
